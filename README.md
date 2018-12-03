@@ -11,7 +11,9 @@ The Jupyter notebook `TrumpTweets.ipynb` is my attempt to distinguish between Tw
 ## Files
  - `TrumpTweets.json`: Contains information from all tweets from [@RealDonaldTrump](https://www.twitter.com/RealDonaldTrump) sent between Inauguration Day, 2017 to October 11, 2018. Created using the [Trump Twitter Archive](http://www.trumptwitterarchive.com).
  - `preprocessing.py`: Contains helper functions to prepare strings to be used in natural language processing
- - `TrumpTweets.ipynb`: Uses the other two files to analyze Trump's Tweets and see if Trumpy tweets are distinguishable from more presidential tweets.
+ - `kmeans_unigrams.pickle`: A pickled K-means clustering algorithm
+ - `kmeans_bigrams.pickle`: Another K-means clustering algorithm
+ - `TrumpTweets.ipynb`: Uses the other files to analyze Trump's Tweets and see if Trumpy tweets are distinguishable from more presidential tweets.
 
 ## Requirements
 In order to run `TrumpTweets.ipynb`, you will need:
