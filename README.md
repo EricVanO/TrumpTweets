@@ -9,7 +9,7 @@ include language that any President would use: stating policy positions, endorsi
 The Jupyter notebook `TrumpTweets.ipynb` is my attempt to distinguish between Tweets worded in a Trumpy way and those worded Presidentially.
 
 ## Files
- - `TrumpTweets.json`: Contains information from all tweets from [@RealDonaldTrump](https://www.twitter.com/RealDonaldTrump) sent between Inauguration Day, 2017 to October 11, 2018. Created using the [Trump Twitter Archive](http://www.trumptwitterarchive.com).
+ - `TrumpTweets.json`: Contains information from all tweets from [@RealDonaldTrump](https://www.twitter.com/RealDonaldTrump) sent between Inauguration Day, 2017 to November 28, 2018. Created using the [Trump Twitter Archive](http://www.trumptwitterarchive.com).
  - `preprocessing.py`: Contains helper functions to prepare strings to be used in natural language processing
  - `kmeans_unigrams.pickle`: A pickled K-means clustering algorithm
  - `kmeans_bigrams.pickle`: Another K-means clustering algorithm
